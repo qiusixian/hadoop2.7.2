@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlowBean/FlowBean.iml" filepath="$PROJECT_DIR$/FlowBean/FlowBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HdfsClient/HdfsClient.iml" filepath="$PROJECT_DIR$/HdfsClient/HdfsClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findFriends/findFriends.iml" filepath="$PROJECT_DIR$/findFriends/findFriends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop2.7.2.iml" filepath="$PROJECT_DIR$/hadoop2.7.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wordcount/wordcount.iml" filepath="$PROJECT_DIR$/wordcount/wordcount.iml" />
+    </modules>
+  </component>
+</project>

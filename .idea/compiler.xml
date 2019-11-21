@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="findFriends" />
+        <module name="FlowBean" />
+        <module name="HdfsClient" />
+        <module name="wordcount" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="findFriends" target="1.5" />
+      <module name="FlowBean" target="7" />
+      <module name="hadoop2.7.2" target="1.5" />
+      <module name="HdfsClient" target="1.5" />
+      <module name="wordcount" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
