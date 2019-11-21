@@ -10,6 +10,8 @@ import org.apache.commons.beanutils.BeanUtils;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
+import static org.apache.commons.beanutils.BeanUtils.copyProperties;
+
 public class TopNReducer extends Reducer<FlowBean, Text, Text, FlowBean> {
 	
 	TreeMap<FlowBean,Text> maps = new TreeMap<>();
@@ -22,7 +24,7 @@ public class TopNReducer extends Reducer<FlowBean, Text, Text, FlowBean> {
 			try {
 				//封装key
 				FlowBean currentKey = new FlowBean();
-				BeanUtils.copyProperties(currentKey, key);
+				copyProperties(currentKey, key);
 				
 				//封装value
 				Text  value = new Text();
